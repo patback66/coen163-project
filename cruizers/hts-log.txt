@@ -1,0 +1,11 @@
+HTTrack3.48-21 launched on Thu, 23 Feb 2017 15:01:52 at http://www.cruizersbarandgrill.com
+(httrack http://www.cruizersbarandgrill.com -O /home/maskoken/Documents/code/cruizers/ )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+
+HTTrack Website Copier/3.48-21 mirror complete in 23 minutes 4 seconds : 407 links scanned, 406 files written (34142721 bytes overall) [34348803 bytes received at 24818 bytes/sec], 2.2 requests per connection
+(No errors, 0 warnings, 0 messages)
