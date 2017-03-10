@@ -1,0 +1,63 @@
+table.event-table 
+{
+    width: 100%;
+    max-width: 1000px;
+    border-collapse: collapse;
+}
+
+td, th
+{
+    text-align: left;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+a#more-info
+{
+    color:black;
+    text-decoration: none;
+}
+
+a#more-info:hover
+{
+    color: rgba(255,0,0,0.8);
+}
+
+@media 
+#overlay0, #overlay1, #overlay2, #overlay3
+{
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0, 0.8);
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+
+.closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: whitesmoke;
+    display: block;
+    transition: 0.1s;
+}
+
+.closebtn:hover {color: #f1f1f1;}
+
+.image
+{
+    display: block;
+    margin: auto;
+    margin-top: 100px;
+    width: 80%;
+    height: auto; 
+    max-width: 600px;
+}
