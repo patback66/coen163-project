@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>
+        COEN 163 Lab 5
+        Oliver Jakobi
+        March 2, 2017
+    </title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+   <script>
+       
+       
+       function showImage(num)
+       {
+           switch(num)
+               {
+                   case 0:
+                       var x = document.getElementById("overlay0");
+                       break;
+                    
+                   case 1:
+                       var x = document.getElementById("overlay1");
+                       break;
+                   
+                   case 2:
+                       var x = document.getElementById("overlay2");
+                       break;
+                       
+                   case 3:
+                       var x = document.getElementById("overlay3");
+                       break;
+                       
+                   default: 
+                       break;
+               }
+           
+            x.style.height = "100%";
+       }
+       
+       function closeNav(num) 
+       {
+           switch(num)
+               {
+                   case 0:
+                       var x = document.getElementById("overlay0");
+                       break;
+                    
+                   case 1:
+                       var x = document.getElementById("overlay1");
+                       break;
+                   
+                   case 2:
+                       var x = document.getElementById("overlay2");
+                       break;
+                       
+                   case 3:
+                       var x = document.getElementById("overlay3");
+                       break;
+                       
+                   default: 
+                       break;
+               }
+           
+            x.style.height = "0%";
+       }
+    </script>
+    
+</head>
+
+<body>
+    
+    <h1>Events</h1>
+    <table class="event-table">
+        
+        <colgroup>
+            <col style="width:35%">
+            <col style="width:25%">
+            <col style="width:20%">
+            <col stype="width:20%">
+        </colgroup>
+        
+        <tr>
+            <th>Event</th>
+            <th>Date</th>
+            <th>Time</th>
+            <th></th>
+        </tr>
+        
+        <tr>
+            <td>Empty Tank</td>
+            <td>3/4/17</td>
+            <td>9:30 PM</td>
+            <td><a id="more-info" href="javascript:void(0)" onclick="showImage(0)">More Info</a></td>
+        </tr>
+        
+        <tr>
+            <td>Orbison Hill</td>
+            <td>3/18/17</td>
+            <td>9:30 PM</td>
+            <td><a id="more-info" href="javascript:void(0)" onclick="showImage(1)">More Info</a></td>
+
+        </tr>
+        
+        <tr>
+            <td>Whiskey Bizness</td>
+            <td>4/8/17</td>
+            <td>9:30 PM</td>
+            <td><a id="more-info" href="javascript:void(0)" onclick="showImage(2)">More Info</a></td>
+        </tr>
+        
+        <tr>
+            <td>Karma's Pawn</td>
+            <td>4/29/17</td>
+            <td>9:30 PM</td>
+            <td><a id="more-info" href="javascript:void(0)" onclick="showImage(3)">More Info</a></td>
+        </tr>
+
+    
+    </table>
+    
+    <div id="overlay0">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav(0)">&times;</a>
+        <img class="image" src="img/empty-tank.jpg">
+    </div>
+    
+    <div id="overlay1">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav(1)">&times;</a>
+        <img class="image" src="img/orbison-hill.jpg">
+    </div>
+    
+    <div id="overlay2">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav(2)">&times;</a>
+        <img class="image" src="img/whiskey-bizness.jpeg">
+    </div>
+    
+    <div id="overlay3">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav(3)">&times;</a>
+        <img class="image" src="img/karmas-pawn.jpg">
+    </div>
+    
+</body>
+</html>
+
+
+
+
