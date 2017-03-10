@@ -52,6 +52,16 @@
   color: #ffbbbc;
 }
 
+#hours {
+  margin-right:5%;
+}
+
+.jumbotron {
+  margin-top:10%;
+  margin-left:2%;
+  margin-right:2%;
+}
+
 @media (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
     color: #ecf0f1;
@@ -66,12 +76,16 @@
     color: #ffbbbc;
     background-color: #c0392b;
   }
-}
-#hours {
-  float:right;
-  width: 25%;
-}
-
-.container .jumbotron, .container-fluid .jumbotron {
-  margin-top:25%;
+  .body {
+    padding-top:50%;
+  }
+  #hours {
+    margin-left:5%;
+    margin-right:5%;
+  }
+  .jumbotron {
+    margin-top:10%;
+    margin-left:2%;
+    margin-right:2%;
+  }
 }
