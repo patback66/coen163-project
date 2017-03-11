@@ -1,7 +1,12 @@
+div.event-div
+{
+    max-width: 1000px;
+    margin: 56pt 2% 2% 2%;
+}
+
 table.event-table 
 {
-    width: 100%;
-    max-width: 1000px;
+    font-size: 16pt;
     border-collapse: collapse;
 }
 
@@ -12,20 +17,60 @@ td, th
     border-bottom: 1px solid #ddd;
 }
 
+.table > tbody > tr > td {vertical-align: middle;}
+
 a#more-info
 {
+    font-size: 16pt;
     color:black;
-    text-decoration: none;
+    text-decoration: underline;
+    color: rgba(255,0,0,0.7);
 }
 
 a#more-info:hover
 {
-    color: rgba(255,0,0,0.8);
+    color: rgb(0,0,0);
 }
 
-@media 
+@media only screen and (max-width: 500px) {
+    
+    h1
+    {
+        font-size: 20pt;
+    }
+    
+    table.event-table
+    {
+        font-size: 12pt;
+    }
+    
+    a#more-info
+    {
+        font-size: 12pt;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    
+    h1
+    {
+        font-size: 16pt;
+    }
+    
+    table.event-table
+    {
+        font-size: 8pt;
+    }
+    
+    a#more-info
+    {
+        font-size: 8pt;
+    }
+}
+
 #overlay0, #overlay1, #overlay2, #overlay3
 {
+    margin-top: 50px;
     height: 0%;
     width: 100%;
     position: fixed;
@@ -39,7 +84,7 @@ a#more-info:hover
 
 .closebtn {
     position: absolute;
-    top: 20px;
+    top: 10px;
     right: 45px;
     font-size: 60px;
     padding: 8px;
@@ -50,7 +95,10 @@ a#more-info:hover
     transition: 0.1s;
 }
 
-.closebtn:hover {color: #f1f1f1;}
+.closebtn:hover {
+    color: gray;
+}
+
 
 .image
 {
@@ -60,4 +108,14 @@ a#more-info:hover
     width: 80%;
     height: auto; 
     max-width: 600px;
+}
+
+.events-footer {
+    clear: both;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background-color: #eee;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
