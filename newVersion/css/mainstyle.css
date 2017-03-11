@@ -57,10 +57,18 @@
   margin-right:5%;
 }
 
-.jumbotron {
+.main-image {
+  max-height: 425px;
+}
+
+.featurette {
   margin-top:8%;
   margin-left:2%;
   margin-right:2%;
+  text-align: center;
+  background-color: #ecf0f1;
+  overflow: auto;
+  padding:2%;
 }
 
 .well {
@@ -69,7 +77,7 @@
 }
 
 #topwell {
-  margin-top:5%;
+  margin-top:8%;
 }
 
 .galleryCar {
@@ -80,10 +88,40 @@
     margin: 0 auto;
 }*/
 
+/*.carousel-inner > .item > img {
+  max-height: 500px;
+  width: auto;
+}*/
+
 .footer {
   background-color: #eee;
   padding-top: 2%;
   padding-bottom: 2%;
+}
+
+ul.nav-pills {
+    top: 15%;
+    position: fixed;
+}
+
+
+/*remove after certain width*/
+.nav-pills>li>a {
+  color:black; !important;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+       color: white !important;
+       background-color: #e74c3c;
+}
+
+div.col-sm-11 div {
+}
+
+#joinus {
+  font-size: 20pt;
+  margin:0 auto;
+  text-align: left;
 }
 
 @media (max-width: 767px) {
@@ -107,9 +145,16 @@
     margin-left:5%;
     margin-right:5%;
   }
-  .jumbotron {
+  .featurette {
     margin-top:12%;
     margin-left:2%;
     margin-right:2%;
+  }
+  #myScrollspy{
+    display:none;
+  }
+  #topwell {
+    margin-top: 10%;
+    padding:2%;
   }
 }
