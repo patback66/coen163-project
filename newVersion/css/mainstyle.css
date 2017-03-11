@@ -14,6 +14,7 @@
 }
 .navbar-default .navbar-nav > li > a {
   color: #ecf0f1;
+  font-size: 20px;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
@@ -57,9 +58,32 @@
 }
 
 .jumbotron {
-  margin-top:10%;
+  margin-top:8%;
   margin-left:2%;
   margin-right:2%;
+}
+
+.well {
+  margin-left:2%;
+  margin-right:2%;
+}
+
+#topwell {
+  margin-top:5%;
+}
+
+.galleryCar {
+  margin-top:2%;
+}
+
+/*.carousel-inner > .item > img {
+    margin: 0 auto;
+}*/
+
+.footer {
+  background-color: #eee;
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 
 @media (max-width: 767px) {
