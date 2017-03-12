@@ -16,12 +16,12 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-left" href="index.html"><img class="img-responsive" style="height:50px;margin-right:5%" src="img/cruizers-horizontal.png" alt="Cruizers Logo"></a>
+      <a class="navbar-left" href="index.html"><img class="img-responsive" style="height:50px;margin-right:5%" src="img/cruizers_textless.png" alt="Cruizers Logo"></a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
         <li ><a href="index.html">Home</a></li>
-        <li ><a href="#">Menu</a></li>
+        <li ><a href="Menu.html">Menu</a></li>
         <li ><a href="events.html">Events</a></li>
         <li class="active" class="dropdown">
           <a class="dropdown-toggle" data-toggle="dropdown" href="#">Gallery<span class="caret"></span></a>
@@ -69,23 +69,23 @@
           <div class="carousel-inner" role="listbox">
             <div class="item active">
               <img src="img/barpics/cruizers12.97163958_large.jpg" alt="Men's and Women's Bathroom with James Dean and Marilyn Monroe">
-              <div class="carousel-caption">
+              <!--<div class="carousel-caption">
                 <p>Men's and Women's Bathroom with James Dean and Marilyn Monroe</p>
-              </div>
+              </div>-->
             </div>
 
             <div class="item">
               <img src="img/barpics/cruizers13.97171027_large.jpg" alt="View of the pool table">
-              <div class="carousel-caption">
+              <!--<div class="carousel-caption">
                 <p>View of the pool table</p>
-              </div>
+              </div>-->
             </div>
 
             <div class="item">
               <img src="img/barpics/cruizers14.97170416_large.jpg" alt="View of the main bar">
-              <div class="carousel-caption">
+              <!--<div class="carousel-caption">
                 <p>View of the pool table</p>
-              </div>
+              </div>-->
             </div>
           </div>
 
@@ -119,23 +119,23 @@
           <div class="carousel-inner" role="listbox">
             <div class="item active">
               <img src="img/carshow/car_show_1.59133035_large.jpg" alt="Red Classic Chevy Muscle Car">
-              <div class="carousel-caption">
+              <!--<div class="carousel-caption">
                 <p>Classic Chevy muscle car</p>
-              </div>
+              </div>--->
             </div>
 
             <div class="item">
               <img src="img/carshow/car_show_2.59133110_large.jpg" alt="Russia Ohio Sheriff Police Hummer and Cruiser">
-              <div class="carousel-caption">
+              <!--<div class="carousel-caption">
                 <p>Russia Ohio Sheriff Police Hummer and Cruiser</p>
-              </div>
+              </div>-->
             </div>
 
             <div class="item">
               <img src="img/carshow/car_show_3.59133143_large.jpg" alt="Green Chevy Convertible">
-              <div class="carousel-caption">
+              <!--<div class="carousel-caption">
                 <p>Green Chevy Convertible</p>
-              </div>
+              </div>-->
             </div>
           </div>
 
@@ -163,6 +163,9 @@
     $('#carshowcar').on("slide.bs.carousel", function(){
      $(".carousel-control",this).css('top',($(".active img",this).height()*0.46)+'px');
      $(this).off("slide.bs.carousel");
+    });
+    $('.carousel').carousel({
+      interval: 1000 * 20
     });
   </script>
 
