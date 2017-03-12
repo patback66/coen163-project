@@ -9,15 +9,15 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/events.css">
     <link rel="stylesheet" href="css/mainstyle.css">
-    
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
    <script>
-       
-       
+
+
        function showImage(num)
        {
            switch(num)
@@ -25,58 +25,58 @@
                    case 0:
                        var x = document.getElementById("overlay0");
                        break;
-                    
+
                    case 1:
                        var x = document.getElementById("overlay1");
                        break;
-                   
+
                    case 2:
                        var x = document.getElementById("overlay2");
                        break;
-                       
+
                    case 3:
                        var x = document.getElementById("overlay3");
                        break;
-                       
-                   default: 
+
+                   default:
                        break;
                }
-           
+
             x.style.height = "100%";
        }
-       
-       function closeNav(num) 
+
+       function closeNav(num)
        {
            switch(num)
                {
                    case 0:
                        var x = document.getElementById("overlay0");
                        break;
-                    
+
                    case 1:
                        var x = document.getElementById("overlay1");
                        break;
-                   
+
                    case 2:
                        var x = document.getElementById("overlay2");
                        break;
-                       
+
                    case 3:
                        var x = document.getElementById("overlay3");
                        break;
-                       
-                   default: 
+
+                   default:
                        break;
                }
-           
+
             x.style.height = "0%";
        }
     </script>
-    
+
 </head>
 
 <body>
-    
+
     <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container-fluid">
         <div class="navbar-header">
@@ -89,18 +89,17 @@
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="index.html">Home</a></li>
+            <li ><a href="index.html">Home</a></li>
             <li ><a href="#">Menu</a></li>
-            <li ><a href="events.html">Events</a></li>
+            <li class="active"><a href="events.html">Events</a></li>
             <li class="dropdown">
               <a class="dropdown-toggle" data-toggle="dropdown" href="#">Gallery<span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="gallery.html#barpics">Bar Pictures</a></li>
-                <li><a href="gallery.html#">Page 1-2</a></li>
-                <li><a href="gallery.html#">Page 1-3</a></li>
+                 <li><a href="gallery.html#topwell">Top</a></li>
+                 <li><a href="gallery.html#barpics">Bar Pictures</a></li>
+                 <li><a href="gallery.html#carshow">Car Show</a></li>
               </ul>
             </li>
-            <li><a href="#">Contact</a></li>
           </ul>
         </div>
       </div>
@@ -171,7 +170,7 @@
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav(3)">&times;</a>
         <img class="image" alt="Karma's Pawn band poster" src="img/karmas-pawn.jpg">
     </div>
-    
+
     <footer class="events-footer">
     <div class="container">
       <span class="text-muted">
@@ -184,10 +183,6 @@
       </span>
     </div>
   </footer>
-    
+
 </body>
 </html>
-
-
-
-

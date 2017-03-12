@@ -124,7 +124,7 @@ div.col-sm-11 div {
   text-align: left;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 800px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
     color: #ecf0f1;
   }
