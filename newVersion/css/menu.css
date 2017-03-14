@@ -4,7 +4,7 @@ div.menu-div
     margin: 56pt 2% 2% 2%;
 }
 
-table.menu-table 
+table.menu-table
 {
     font-size: 16pt;
     border-collapse: collapse;
@@ -21,17 +21,17 @@ td, th
 
 
 @media only screen and (max-width: 500px) {
-    
+
     h1
     {
         font-size: 20pt;
     }
-    
+
     table.event-table
     {
         font-size: 12pt;
     }
-    
+
     a#more-info
     {
         font-size: 12pt;
@@ -39,24 +39,24 @@ td, th
 }
 
 @media only screen and (max-width: 400px) {
-    
+
     h1
     {
         font-size: 16pt;
     }
-    
+
     table.menu-table
     {
         font-size: 8pt;
     }
-    
+
     a#more-info
     {
         font-size: 8pt;
     }
 }
 
-.img-responsive {
+.img-responsive-menu {
     position:relative;
     display:block;
     margin-top: 8%;
