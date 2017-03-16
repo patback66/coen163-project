@@ -1,13 +1,13 @@
 .navbar-default {
-  background-color: #e74c3c;
-  border-color: #c0392b;
+  background-color: #811842;
+  border-color: black;
 }
 .navbar-default .navbar-brand {
   color: #ecf0f1;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-  color: #ffbbbc;
+  color: white;
 }
 .navbar-default .navbar-text {
   color: #ecf0f1;
@@ -18,26 +18,27 @@
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #ffbbbc;
+  color: white;
+  background-color:#ad2059;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  color: #ffbbbc;
-  background-color: #c0392b;
+  color: white;
+  background-color: black;
 }
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
-  color: #ffbbbc;
-  background-color: #c0392b;
+  color: white;
+  background-color: black;
 }
 .navbar-default .navbar-toggle {
-  border-color: #c0392b;
+  border-color: black;
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-  background-color: #c0392b;
+  background-color: black;
 }
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #ecf0f1;
@@ -50,7 +51,7 @@
   color: #ecf0f1;
 }
 .navbar-default .navbar-link:hover {
-  color: #ffbbbc;
+  color: white;
 }
 
 #hours {
@@ -94,6 +95,7 @@
 
 .footer {
   background-color: #eee;
+  color: black
   padding-top: 2%;
   padding-bottom: 2%;
 }
@@ -111,7 +113,7 @@ ul.nav-pills {
 
 .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
        color: white !important;
-       background-color: #e74c3c;
+       background-color: #811842;
 }
 
 div.col-sm-11 div {
@@ -129,13 +131,13 @@ div.col-sm-11 div {
   }
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #ffbbbc;
+    color: white;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: #ffbbbc;
-    background-color: #c0392b;
+    color: white;
+    background-color: black;
   }
   .body {
     padding-top:50%;

@@ -4,7 +4,7 @@ div.event-div
     margin: 56pt 2% 2% 2%;
 }
 
-table.event-table 
+table.event-table
 {
     font-size: 16pt;
     border-collapse: collapse;
@@ -24,7 +24,7 @@ a#more-info
     font-size: 16pt;
     color:black;
     text-decoration: underline;
-    color: rgba(255,0,0,0.7);
+    color: #811842; /*rgba(255,0,0,0.7);*/
 }
 
 a#more-info:hover
@@ -33,17 +33,17 @@ a#more-info:hover
 }
 
 @media only screen and (max-width: 500px) {
-    
+
     h1
     {
         font-size: 20pt;
     }
-    
+
     table.event-table
     {
         font-size: 12pt;
     }
-    
+
     a#more-info
     {
         font-size: 12pt;
@@ -51,17 +51,17 @@ a#more-info:hover
 }
 
 @media only screen and (max-width: 400px) {
-    
+
     h1
     {
         font-size: 16pt;
     }
-    
+
     table.event-table
     {
         font-size: 8pt;
     }
-    
+
     a#more-info
     {
         font-size: 8pt;
@@ -106,7 +106,7 @@ a#more-info:hover
     margin: auto;
     margin-top: 100px;
     width: 80%;
-    height: auto; 
+    height: auto;
     max-width: 600px;
 }
 
